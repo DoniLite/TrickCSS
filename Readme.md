@@ -46,7 +46,7 @@ Je prévois d'enrichir le projet avec de nouvelles fonctionnalités et d'autres 
 
 ## Comment contribuer ?
 
-Vous souhaitez contribuer à ce projet ou y ajouter des fonctionnalités ? Voici les étapes à suivre pour participer :
+Vous souhaitez contribuer à ce projet ou y ajouter des fonctionnalités ? Voici les étapes à suivre pour participer:
 
 - **Forkez le projet :** Créez une copie du code sur votre propre dépôt.
 - **Créez une branche de développement :** Travaillez sur vos modifications dans une branche `develop/description` (ou un nom de branche explicite pour votre fonctionnalité).
