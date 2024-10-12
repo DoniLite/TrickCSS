@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+window.onload = () => {
   document.querySelectorAll('pre').forEach((el) => {
     const btn = document.createElement('button');
     btn.classList.add('copy-btn');
@@ -26,4 +26,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
   });
-});
+}
