@@ -14,7 +14,6 @@ window.onload = () => {
   });
 
   document.querySelectorAll('pre code').forEach((el) => {
-    console.log(el);
     hljs.highlightElement(el);
   });
 
