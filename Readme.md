@@ -24,6 +24,16 @@ Pour utiliser le module, suivez les étapes ci-dessous pour charger les assets d
      <script type="module" src="https://cdn.jsdelivr.net/gh/DoniLite/CSS/md.js" defer></script>
 ```
 
+Si vous souhaitez charger le dernier module ou une version spécifique, considérez cette syntaxe: 
+
+```html
+    <!-- Pour la derniere version actuellement disponible -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS@1.1.0/md.css">
+
+     <!-- Si vous souhaitez charger une version specifique -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS@{{numero_spécifique_de_version}}/md.css">
+```
+
 ## Application dy style
 
 Une fois les fichiers chargés, vous pouvez appliquer le thème souhaité. Notez que le CSS parcourt l'intégralité de votre document à la recherche des balises appropriées pour les styliser, tout en minimisant les conflits avec vos styles existants. Utilisez la structure suivante pour injecter du contenu **Markdown** déjà converti en **HTML** :
