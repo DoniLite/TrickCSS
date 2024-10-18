@@ -1,9 +1,21 @@
+import hljs from 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/es/highlight.min.js';
+//  and it's easy to individually load additional languages
+import go from 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/es/languages/go.min.js';
+
+hljs.registerLanguage('go', go);
+
+// hljs.highlightAll();
 window.onload = () => {
   document.querySelectorAll('pre').forEach((el) => {
     const btn = document.createElement('button');
     btn.classList.add('copy-btn');
     btn.innerText = 'copier';
-    el.insertAdjacentHTML('beforeend', btn);
+    el.insertAdjacentElement('beforeend', btn);
+  });
+
+  document.querySelectorAll('pre code').forEach((el) => {
+    console.log(el);
+    hljs.highlightElement(el);
   });
 
   document.querySelectorAll('.copy-btn').forEach((button) => {
@@ -26,4 +38,4 @@ window.onload = () => {
         });
     });
   });
-}
+};
