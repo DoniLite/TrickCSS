@@ -17,8 +17,11 @@ Pour utiliser le module, suivez les étapes ci-dessous pour charger les assets d
     <!-- Utilisez ceci pour le css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS/md.css">
 
+    <!-- Ajoutez le style de highlight.js pour benéficier d'une coloration syntaxique de code -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+
     <!-- Pour le javaScript -->
-     <script type="module" src="https://cdn.jsdelivr.net/gh/DoniLite/CSS/md.js"></script>
+     <script type="module" src="https://cdn.jsdelivr.net/gh/DoniLite/CSS/md.js" defer></script>
 ```
 
 ## Application dy style
