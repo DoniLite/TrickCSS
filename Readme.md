@@ -17,18 +17,21 @@ Pour utiliser le module, suivez les étapes ci-dessous pour charger les assets d
     <!-- Utilisez ceci pour le css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS/md.css">
 
-    <!-- Ajoutez le style de highlight.js pour benéficier d'une coloration syntaxique de code -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <!-- Ajoutez le thème de highlight pour bénéficier de la coloration syntaxique -->
+    <!-- si vous souhaitez obtenir plus de thème référer vous à la documentation officieelle du site -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css"/>
+    <!-- Insérez le script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
 
     <!-- Pour le javaScript -->
      <script type="module" src="https://cdn.jsdelivr.net/gh/DoniLite/CSS/md.js" defer></script>
 ```
 
-Si vous souhaitez charger le dernier module ou une version spécifique, considérez cette syntaxe: 
+Si vous souhaitez charger le dernier module ou une version spécifique, considérez cette syntaxe:
 
 ```html
     <!-- Pour la derniere version actuellement disponible -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS@1.1.0/md.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS@latest/md.css">
 
      <!-- Si vous souhaitez charger une version specifique -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS@{{numero_spécifique_de_version}}/md.css">
@@ -47,6 +50,11 @@ Une fois les fichiers chargés, vous pouvez appliquer le thème souhaité. Notez
 ```
 
 **Note** : Remplacez `light-mode` par `dark-mode` si vous souhaitez activer le mode sombre par défaut.
+
+## Rendu
+
+![image1](./asset/Capture%20d’écran%20du%202024-12-04%2016-39-07.png)
+![image2](./asset/Capture%20d’écran%20du%202024-12-04%2016-40-14.png)
 
 ## Possible mise à jour et amélioration ?
 
