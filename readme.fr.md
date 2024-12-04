@@ -18,7 +18,7 @@ Pour utiliser le module, suivez les étapes ci-dessous pour charger les assets d
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS/md.css">
 
     <!-- Ajoutez le thème de highlight pour bénéficier de la coloration syntaxique -->
-    <!-- si vous souhaitez obtenir plus de thème référer vous à la documentation officieelle du site -->
+    <!-- si vous souhaitez obtenir plus de thème référer vous à la documentation officieelle du site https://highlightjs.org/#usage -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css"/>
     <!-- Insérez le script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
@@ -37,7 +37,7 @@ Si vous souhaitez charger le dernier module ou une version spécifique, considé
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS@{{numero_spécifique_de_version}}/md.css">
 ```
 
-## Application dy style
+## Application du style
 
 Une fois les fichiers chargés, vous pouvez appliquer le thème souhaité. Notez que le CSS parcourt l'intégralité de votre document à la recherche des balises appropriées pour les styliser, tout en minimisant les conflits avec vos styles existants. Utilisez la structure suivante pour injecter du contenu **Markdown** déjà converti en **HTML** :
 
