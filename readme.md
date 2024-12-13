@@ -1,4 +1,4 @@
-
+![Capture d’écran du 2024-12-04 16-39-07](https://github.com/user-attachments/assets/850d990e-f8c8-41f3-91d6-fdc371ade06d)
 # Markdown Style
 
 > Cette documentation est disponible en [français](./readme.fr.md)
@@ -56,16 +56,18 @@ Once the files are loaded, you can apply the desired theme. Note that the CSS tr
 
 ## Render
 
-[Note: The original document includes two screenshots, which cannot be displayed here]
+![asset 1](https://github.com/user-attachments/assets/8cbe01c7-d30c-4665-8254-be92914135df)
+![asset 2](https://github.com/user-attachments/assets/09d58f07-b3e1-4a66-b3e4-471e75c5de8b)
+
 
 ## Possible Updates and Improvements
 
 I plan to enrich the project with new features and other styles for documents converted to HTML:
 
-- Adding new themes to offer more variety in visual rendering.
-- Support for document types beyond Markdown for greater flexibility.
-- Improvements to code copy button ergonomics and interactions.
-- Performance optimization for processing large amounts of Markdown content.
+- [] Adding new themes to offer more variety in visual rendering.
+- [] Support for document types beyond Markdown for greater flexibility.
+- [x] Improvements to code copy button ergonomics and interactions.
+- [x] Performance optimization for processing large amounts of Markdown content.
 
 ## How to Contribute?
 
