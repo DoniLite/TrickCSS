@@ -18,7 +18,7 @@ Pour utiliser le module, suivez les étapes ci-dessous pour charger les assets d
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/TrickCSS/md.css">
 
     <!-- Ajoutez le thème de highlight pour bénéficier de la coloration syntaxique -->
-    <!-- si vous souhaitez obtenir plus de thème référer vous à la documentation officieelle du site https://highlightjs.org/#usage -->
+    <!-- si vous souhaitez obtenir plus de thème référer vous à la documentation officielle du site https://highlightjs.org/#usage -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css"/>
     <!-- Insérez le script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
