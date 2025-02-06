@@ -15,26 +15,26 @@ Pour utiliser le module, suivez les étapes ci-dessous pour charger les assets d
 
 ```html
     <!-- Utilisez ceci pour le css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS/md.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/TrickCSS/md.css">
 
     <!-- Ajoutez le thème de highlight pour bénéficier de la coloration syntaxique -->
-    <!-- si vous souhaitez obtenir plus de thème référer vous à la documentation officieelle du site https://highlightjs.org/#usage -->
+    <!-- si vous souhaitez obtenir plus de thème référer vous à la documentation officielle du site https://highlightjs.org/#usage -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css"/>
     <!-- Insérez le script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
 
     <!-- Pour le javaScript -->
-     <script type="module" src="https://cdn.jsdelivr.net/gh/DoniLite/CSS/md.js" defer></script>
+     <script type="module" src="https://cdn.jsdelivr.net/gh/DoniLite/TrickCSS/md.js" defer></script>
 ```
 
 Si vous souhaitez charger le dernier module ou une version spécifique, considérez cette syntaxe:
 
 ```html
     <!-- Pour la derniere version actuellement disponible -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS@latest/md.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/TrickCSS@latest/md.css">
 
      <!-- Si vous souhaitez charger une version specifique -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS@{{numero_spécifique_de_version}}/md.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/TrickCSS@{{numero_spécifique_de_version}}/md.css">
 ```
 
 ## Application du style

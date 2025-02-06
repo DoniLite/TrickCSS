@@ -17,7 +17,7 @@ To use the module, follow these steps to load assets from CDN servers:
 
 ```html
     <!-- Use this for CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS/md.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/TrickCSS/md.css">
 
     <!-- Add highlight theme for syntax coloring -->
     <!-- For more themes, refer to the official documentation https://highlightjs.org/#usage -->
@@ -26,17 +26,17 @@ To use the module, follow these steps to load assets from CDN servers:
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
 
     <!-- For JavaScript -->
-     <script type="module" src="https://cdn.jsdelivr.net/gh/DoniLite/CSS/md.js" defer></script>
+     <script type="module" src="https://cdn.jsdelivr.net/gh/DoniLite/TrickCSS/md.js" defer></script>
 ```
 
 If you want to load the latest module or a specific version, consider this syntax:
 
 ```html
     <!-- For the latest currently available version -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS@latest/md.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/TrickCSS@latest/md.css">
 
      <!-- If you want to load a specific version -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/CSS@{{specific_version_number}}/md.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DoniLite/TrickCSS@{{specific_version_number}}/md.css">
 ```
 
 ## Style Application
